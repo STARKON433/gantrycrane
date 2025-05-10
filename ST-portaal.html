@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portaalkraan 10 Ton - Starkon Cranes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            color: #000;
+        }
+        header {
+            background: #fff;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 5px solid #8b2b2b;
+        }
+        header img {
+            height: 50px;
+        }
+        .lang-switcher {
+            text-align: right;
+            padding: 10px 20px;
+        }
+        .lang-switcher button {
+            margin-left: 10px;
+            padding: 5px 10px;
+            cursor: pointer;
+            background: #8b2b2b;
+            color: white;
+            border: none;
+            border-radius: 3px;
+        }
+        .content {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+            position: relative;
+        }
+        h1 {
+            color: #8b2b2b;
+            border-left: 10px solid #8b2b2b;
+            padding-left: 15px;
+        }
+        .specs, .services {
+            margin-top: 30px;
+        }
+        .specs table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .specs th, .specs td {
+            text-align: left;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .image-box {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .image-box img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #8b2b2b;
+            margin: 10px 0;
+        }
+        footer {
+            background: #f8f8f8;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #555;
+            border-top: 2px solid #8b2b2b;
+        }
+        .corner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 80px solid #8b2b2b;
+    border-left: 80px solid transparent;
+    animation: pulseCorner 5s infinite ease-in-out;
+    transform-origin: top right;
+}
+
+@keyframes pulseCorner {
+    0% {
+        transform: scale(1);
+        border-top-color: #8b2b2b;
+    }
+    50% {
+        transform: scale(1.05); /* iets groter */
+        border-top-color: #000000; /* wordt zwart */
+    }
+    100% {
+        transform: scale(1);
+        border-top-color: #8b2b2b;
+    }
+}
+
+        .lang-section { display: none; }
+        .lang-section.active { display: block; }
+    </style>
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.lang-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(lang).classList.add('active');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <img src="starkon-logo-300x38.png" alt="Starkon Logo">
+    </header>
+
+    <div class="lang-switcher">
+        <button onclick="switchLang('nl')">Nederlands</button>
+        <button onclick="switchLang('en')">English</button>
+    </div>
+
+    <div class="content">
+        <div class="corner"></div>
+
+        <div id="nl" class="lang-section active">
+            <h1>Portaalkraan – STARKON 10 Ton</h1>
+            <p>Deze robuuste <strong>nieuwe STARKON enkelligger portaalkraan</strong> is geschikt voor diverse industriële toepassingen, zowel binnen als buiten. De kraan is uitgerust met een hoogwaardige staaldraadtakel van Verlinde en is uitgevoerd conform FEM/ISO klasse M5 – ideaal voor intensief gebruik. Met een capaciteit van 10 ton en een hijshoogte van 4,2 meter biedt deze kraan een krachtige en betrouwbare oplossing voor al uw hijswerkzaamheden. Inclusief 12 meter kraanbaan (hoogte 40 mm), waarbij de lengte van de kraanbaan volledig aanpasbaar is naar wens.</p>
+            <div class="specs">
+                <h2>Technische specificaties</h2>
+                <table>
+                    <tr><th>Type</th><td>Enkelligger portaalkraan</td></tr>
+                    <tr><th>Capaciteit</th><td>10 ton</td></tr>
+                    <tr><th>Hijshoogte</th><td>4,2 meter</td></tr>
+                    <tr><th>Bouwjaar</th><td>2025</td></tr>
+                    <tr><th>Takel</th><td>Staaldraadtakel (Verlinde, FEM/ISO M5), jong gebruikt en volledig gereviseerd</td></tr>
+                    <tr><th>Bediening</th><td>Radiografische afstandsbediening (Autec)</td></tr>
+                    <tr><th>Kraanbaan</th><td>12 meter kraanbaan (hoogte 40 mm; lengte aanpasbaar)</td></tr>
+                    <tr><th>Overspanning</th><td>6.743 mm (hart op hart)</td></tr>
+                    <tr><th>Totale lengte</th><td>6.893 mm</td></tr>
+                    <tr><th>Wielstelbreedte</th><td>2.830 mm (excl. buffers) / 2.930 mm (incl. buffers)</td></tr>
+                    <tr><th>Wielafstand</th><td>2.500 mm</td></tr>
+                    <tr><th>Hijsen</th><td>5 / 0,83 m/min (2-traps)</td></tr>
+                    <tr><th>Katrijden</th><td>20 m/min (traploos geregeld)</td></tr>
+                    <tr><th>Kraanrijden</th><td>7 m/min (traploos geregeld)</td></tr>
+                    <tr><th>Conditie</th><td>Constructie nieuw; componenten gereviseerd, incl. 3 jaar garantie</td></tr>
+                    <tr><th>Documentatie</th><td>Kraanboek nieuw opgesteld; elektrische schema’s aanwezig</td></tr>
+                    <tr><th>Laatste keuring</th><td>Nieuw opgesteld</td></tr>
+                </table>
+            </div>
+            <div class="services">
+                <h2>Diensten</h2>
+                <p>Installatie op locatie wereldwijd mogelijk.</p>
+            </div>
+            <div class="image-box">
+                <p><em>Afbeeldingen van het product:</em></p>
+                <img src="portaalkraan 10 Ton.jpg" alt="Portaalkraan 10 Ton">
+                <img src="portaalkraan 10 Ton.jpg" alt="Portaalkraan detail">
+            </div>
+            <p style="margin-top:40px; font-weight:bold; font-size: 1.1em; color:#8b2b2b; text-align: center;">Unlock the future of lifting with Starkon Cranes – where innovation meets strength.</p>
+        </div>
+
+        <div id="en" class="lang-section">
+            <h1>Gantry Crane – STARKON 10 Ton</h1>
+            <p>This robust <strong>new STARKON single-girder gantry crane</strong> is suitable for various industrial applications, both indoors and outdoors. The crane is equipped with a high-quality wire rope hoist from Verlinde and is built to FEM/ISO class M5 standards – ideal for intensive use. With a capacity of 10 tons and a lifting height of 4.2 meters, this crane offers a powerful and reliable solution for all your lifting operations. Includes 12 meters of crane runway (height 40 mm), with adjustable length as desired.</p>
+            <div class="specs">
+                <h2>Technical specifications</h2>
+                <table>
+                    <tr><th>Type</th><td>Single-girder gantry crane</td></tr>
+                    <tr><th>Capacity</th><td>10 tons</td></tr>
+                    <tr><th>Lifting height</th><td>4.2 meters</td></tr>
+                    <tr><th>Year of manufacture</th><td>2025</td></tr>
+                    <tr><th>Hoist</th><td>Wire rope hoist (Verlinde, FEM/ISO M5), lightly used and fully refurbished</td></tr>
+                    <tr><th>Control</th><td>Radio remote control (Autec)</td></tr>
+                    <tr><th>Crane runway</th><td>12 meters crane runway (height 40 mm; adjustable length)</td></tr>
+                    <tr><th>Span</th><td>6,743 mm (center to center)</td></tr>
+                    <tr><th>Total length</th><td>6,893 mm</td></tr>
+                    <tr><th>Wheelset width</th><td>2,830 mm (excl. buffers) / 2,930 mm (incl. buffers)</td></tr>
+                    <tr><th>Wheelbase</th><td>2,500 mm</td></tr>
+                    <tr><th>Hoisting speed</th><td>5 / 0.83 m/min (2-speed)</td></tr>
+                    <tr><th>Trolley speed</th><td>20 m/min (stepless)</td></tr>
+                    <tr><th>Crane travel speed</th><td>7 m/min (stepless)</td></tr>
+                    <tr><th>Condition</th><td>New structure; refurbished components, incl. 3-year warranty</td></tr>
+                    <tr><th>Documentation</th><td>New crane book; electrical diagrams included</td></tr>
+                    <tr><th>Last inspection</th><td>Newly issued</td></tr>
+                </table>
+            </div>
+            <div class="services">
+                <h2>Services</h2>
+                <p>Worldwide on-site installation available.</p>
+            </div>
+            <div class="image-box">
+                <p><em>Product images:</em></p>
+                <img src="portaalkraan 10 Ton.jpg" alt="Gantry Crane 10 Ton">
+                <img src="portaalkraan 10 Ton.jpg" alt="Gantry Crane 2">
+            </div>
+            <p style="margin-top:40px; font-weight:bold; font-size: 1.1em; color:#8b2b2b; text-align: center;">Unlock the future of lifting with Starkon Cranes – where innovation meets strength.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        Starkon Industrial Services BV – Nijverheidsweg 22, 3251 LP Stellendam, Netherlands – www.starkon.nl
+    </footer>
+</body>
+</html>
